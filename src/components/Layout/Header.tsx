@@ -5,22 +5,22 @@ import Link from '../UI/Link';
 export default function Header() {
   const links = [
     {
-      site: 'github',
+      site: 'Github',
       link: 'https://github.com/Furxx2000',
       icon: <FaGithub />,
     },
     {
-      site: 'frontend mentor',
+      site: 'Frontend mentor',
       link: 'https://www.frontendmentor.io/Furxx2000',
       icon: <SiFrontendmentor />,
     },
     {
-      site: 'linkedIn',
+      site: 'LinkedIn',
       link: 'https://www.linkedin.com/in/%E5%85%89%E5%BB%B7-%E6%96%87-aa0ba1176/',
       icon: <FaLinkedin />,
     },
     {
-      site: 'twitter',
+      site: 'Codepen',
       link: 'https://codepen.io/furxx2000',
       icon: <FaCodepen />,
     },
