@@ -1,5 +1,7 @@
+import Header from './components/Layout/Header';
+
 function App() {
-  return <h1 className='text-teal-500 font-bold'>Hello world</h1>;
+  return <Header />;
 }
 
 export default App;
