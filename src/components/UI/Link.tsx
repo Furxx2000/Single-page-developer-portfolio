@@ -7,7 +7,7 @@ interface Props {
 export default function Link({ site, link, icon }: Props) {
   return (
     <li>
-      <a href={link} target='_blank'>
+      <a href={link} target='_blank' title={site}>
         {icon}
         <span className='sr-only'>{site}</span>
       </a>
