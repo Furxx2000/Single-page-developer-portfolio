@@ -3,18 +3,53 @@
   "description": "Based in Taiwan, I'm a front-end developer passionate about building accessible web apps that users love.",
   "projects": [
     {
+      "projectName": "Pomodoro app",
+      "skills": ["tailwind", "typescript", "react"],
+      "image": "../../src/assets/Pomodoro-app.jpg",
+      "projectLink": "https://furxx2000.github.io/Pomodoro-app/",
+      "codeLink": "https://github.com/Furxx2000/Pomodoro-app"
+    },
+    {
       "projectName": "In browser markdown editor",
-      "skills": ["html", "scss", "react"],
+      "skills": ["scss", "typescript", "react"],
       "image": "../../src/assets/In-browser-markdown-editor.jpg",
       "projectLink": "https://furxx2000.github.io/In-browser-markdown-editor/",
       "codeLink": "https://github.com/Furxx2000/In-browser-markdown-editor"
     },
     {
-      "projectName": "Pomodoro app",
-      "skills": ["html", "tailwind", "react"],
-      "image": "../../src/assets/Pomodoro-app.jpg",
-      "projectLink": "https://furxx2000.github.io/Pomodoro-app/",
-      "codeLink": "https://github.com/Furxx2000/Pomodoro-app"
+      "projectName": "REST Countries API",
+      "skills": ["css", "typescript", "vue"],
+      "image": "../../src/assets/REST-Countries-API.jpg",
+      "projectLink": "https://furxx2000.github.io/Rest-Country-API-App/",
+      "codeLink": "https://github.com/Furxx2000/Rest-Country-API-App"
+    },
+    {
+      "projectName": "Calculator App",
+      "skills": ["scss", "typescript", "vue"],
+      "image": "../../src/assets/Calculator-App.jpg",
+      "projectLink": "https://furxx2000.github.io/Calculator-App/",
+      "codeLink": "https://github.com/Furxx2000/Calculator-App"
+    },
+    {
+      "projectName": "Drum machine",
+      "skills": ["styled components", "typescript", "react"],
+      "image": "../../src/assets/Drum-machine.JPG",
+      "projectLink": "https://furxx2000.github.io/Drum-machine/",
+      "codeLink": "https://github.com/Furxx2000/Drum-machine"
+    },
+    {
+      "projectName": "Space tourism website",
+      "skills": ["html", "css", "typescript"],
+      "image": "../../src/assets/Space-tourism-website.jpg",
+      "projectLink": "https://furxx2000.github.io/Space-Tourism-Website/",
+      "codeLink": "https://github.com/Furxx2000/Space-Tourism-Website"
+    },
+    {
+      "projectName": "Random quote app",
+      "skills": ["css", "react", "API"],
+      "image": "../../src/assets/Random-quote-app.JPG",
+      "projectLink": "https://furxx2000.github.io/Random-quote-machine-FCC/",
+      "codeLink": "https://github.com/Furxx2000/Random-quote-machine-FCC"
     }
   ]
 }
