@@ -27,9 +27,9 @@ export default function Header() {
   ];
 
   return (
-    <header className='grid gap-y-6 pt-6 justify-center text-white font-bold text-2xl'>
+    <header className='fixed top-0 grid gap-y-5 w-full pt-6 justify-center font-bold text-2xl z-50'>
       <h1 className='text-center'>dannywen</h1>
-      <ul className='flex gap-x-6'>
+      <ul className='flex gap-x-5'>
         {links.map(({ site, link, icon }) => (
           <Link key={site} site={site} link={link} icon={icon} />
         ))}
