@@ -1,0 +1,20 @@
+{
+  "name": "Danny Wen",
+  "description": "Based in Taiwan, I'm a front-end developer passionate about building accessible web apps that users love.",
+  "projects": [
+    {
+      "projectName": "In browser markdown editor",
+      "skills": ["html", "scss", "react"],
+      "image": "../../src/assets/In-browser-markdown-editor.jpg",
+      "projectLink": "https://furxx2000.github.io/In-browser-markdown-editor/",
+      "codeLink": "https://github.com/Furxx2000/In-browser-markdown-editor"
+    },
+    {
+      "projectName": "Pomodoro app",
+      "skills": ["html", "tailwind", "react"],
+      "image": "../../src/assets/Pomodoro-app.jpg",
+      "projectLink": "https://furxx2000.github.io/Pomodoro-app/",
+      "codeLink": "https://github.com/Furxx2000/Pomodoro-app"
+    }
+  ]
+}
