@@ -17,7 +17,7 @@ export default function Project({
 }: Props) {
   return (
     <div className='grid gap-y-5'>
-      <div className='w-[343px] h-[253px]'>
+      <div className='w-[343px] h-[253px] rounded-xl overflow-clip'>
         <img src={image} alt={projectName} loading='lazy' />
       </div>
       <div>
