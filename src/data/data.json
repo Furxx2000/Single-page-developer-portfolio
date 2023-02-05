@@ -50,6 +50,13 @@
       "image": "../../src/assets/Random-quote-app.JPG",
       "projectLink": "https://furxx2000.github.io/Random-quote-machine-FCC/",
       "codeLink": "https://github.com/Furxx2000/Random-quote-machine-FCC"
+    },
+    {
+      "projectName": "Login page",
+      "skills": ["scss", "vue", "vue router"],
+      "image": "../../src/assets/Login-page.jpg",
+      "projectLink": "https://trend-micro-developer-task.netlify.app",
+      "codeLink": "https://github.com/Furxx2000/trend_micro_developer_task"
     }
   ]
 }
