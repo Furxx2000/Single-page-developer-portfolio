@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 
+import Divider from '../../UI/Divider';
 import ProjectsHeader from './ProjectsHeader';
 import Project from './Project';
 
@@ -26,26 +27,22 @@ const initial = [
 export default function ProjectsSection() {
   const [projects, setProjects] = useState<Project[]>(initial);
 
-  useEffect(() => {
-    let subscribe = false;
-    fetch(JSONdata).then((res) =>
-      res.json().then((data) => {
-        if (!data) {
-          console.log("Can't fetch data!");
-          return;
-        }
-        if (!subscribe) setProjects(data.projects);
-      })
-    );
+  async function fetchData() {
+    const respond = await fetch(JSONdata);
 
-    return () => {
-      subscribe = true;
-    };
+    if (!respond.ok) throw new Error('Data can not be found.');
+
+    const data = await respond.json();
+    setProjects(data.projects);
+  }
+
+  useEffect(() => {
+    fetchData();
   }, []);
 
   return (
-    <section className='grid gap-y-10 px-4'>
-      <div className='h-px bg-white'></div>
+    <section className='grid gap-y-10 px-4 pb-20'>
+      <Divider />
       <ProjectsHeader />
       <div className='grid gap-y-10'>
         {projects.map(
