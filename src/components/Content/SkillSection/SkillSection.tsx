@@ -1,3 +1,4 @@
+import Divider from '../../UI/Divider';
 import Skill from './Skill';
 
 export default function SkillSection() {
@@ -30,7 +31,7 @@ export default function SkillSection() {
 
   return (
     <section className='grid px-4'>
-      <div className='h-px bg-white'></div>
+      <Divider />
       <ul className='grid gap-y-6 py-10'>
         {developerSkills.map(({ skill, experience }) => (
           <Skill key={skill} skill={skill} experience={experience} />
