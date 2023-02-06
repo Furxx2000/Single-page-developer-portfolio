@@ -1,8 +1,12 @@
 import Image from '../../../assets/pattern-rings.svg';
 
-export default function RingImage() {
+interface Props {
+  position: string;
+}
+
+export default function RingImage({ position }: Props) {
   return (
-    <div className='absolute w-[530px] left-[-92%] top-[32%] z-[-10]'>
+    <div className={`absolute w-[530px] ${position}`}>
       <img src={Image} alt='Rings' />
     </div>
   );
