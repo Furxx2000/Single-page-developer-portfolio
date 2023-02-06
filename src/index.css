@@ -13,4 +13,19 @@
     @apply bg-deep-black;
     @apply text-white;
   }
+
+  h2 {
+    @apply font-bold;
+    @apply text-[40px];
+    @apply leading-10;
+    @apply tracking-[-1.14px];
+  }
+
+  input,
+  textarea {
+    @apply resize-none;
+    @apply w-full;
+    @apply outline-0;
+    @apply bg-transparent;
+  }
 }
