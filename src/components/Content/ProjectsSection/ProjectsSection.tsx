@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import Divider from '../../UI/Divider';
 import ProjectsHeader from './ProjectsHeader';
 import Project from './Project';
+import RingImage from '../HeroSection/RingsImage';
 
 import JSONdata from '../../../data/data.json?url';
 
@@ -41,7 +42,7 @@ export default function ProjectsSection() {
   }, []);
 
   return (
-    <section className='grid gap-y-10 px-4 pb-20'>
+    <section className='relative grid gap-y-10 px-4 pb-20'>
       <Divider />
       <ProjectsHeader />
       <div className='grid gap-y-10'>
@@ -58,6 +59,7 @@ export default function ProjectsSection() {
           )
         )}
       </div>
+      <RingImage position='top-[-63px] right-[-92%]' />
     </section>
   );
 }
