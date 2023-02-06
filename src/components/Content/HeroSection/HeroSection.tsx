@@ -16,7 +16,7 @@ export default function HeroSection() {
     <section className='grid gap-y-10 mb-20'>
       <div className='relative flex justify-center overflow-x-hidden'>
         <HeroImage />
-        <RingsImage />
+        <RingsImage position='left-[-92%] top-[32%] z-[-10]' />
         <CircleImage />
       </div>
       <div className='grid gap-y-6 justify-items-center'>
