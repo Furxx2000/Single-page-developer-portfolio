@@ -8,6 +8,7 @@ module.exports = {
       'primary-green': '#4EE1A0',
       gray: '#D9D9D9',
       white: '#FFFFFF',
+      transparent: 'transparent',
     },
     fontFamily: {
       sans: ['"Space Grotesk"', 'sans-serif'],
