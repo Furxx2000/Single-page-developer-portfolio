@@ -28,4 +28,7 @@
     @apply outline-0;
     @apply bg-transparent;
   }
+
+  input {
+  }
 }
