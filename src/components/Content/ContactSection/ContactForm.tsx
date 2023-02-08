@@ -4,40 +4,49 @@ import BaseButton from '../../UI/BaseButton';
 import { useState } from 'react';
 
 export default function ContactForm() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
+  const [name, setName] = useState({ value: '', isError: false });
+  const [email, setEmail] = useState({
+    value: '',
+    isError: false,
+  });
   const [message, setMessage] = useState('');
-  const [nameError, setNameError] = useState(false);
-  const [emailError, setEmailError] = useState(false);
 
   function validation() {
     let isValid = true;
 
-    if (name === '') {
+    if (name.value === '') {
       isValid = false;
-      setNameError(true);
+      setName({ ...name, isError: true });
       return isValid;
     }
 
-    if (!email.includes('@')) {
+    if (!email.value.includes('@')) {
       isValid = false;
-      setEmailError(true);
+      setEmail({ ...email, isError: true });
       return isValid;
     }
 
     return isValid;
   }
 
-  function handleGetName(name: string) {
-    setName(name);
+  function handleGetName(value: string) {
+    setName({ ...name, value });
   }
 
-  function handleGetEmail(email: string) {
-    setEmail(email);
+  function handleGetEmail(value: string) {
+    setEmail({ ...email, value });
   }
 
   function handleGetMessage(message: string) {
     setMessage(message);
+  }
+
+  function handleNameFocus() {
+    if (name.isError) setName({ ...name, isError: false });
+  }
+
+  function handleEmailFocus() {
+    if (email.isError) setEmail({ ...email, isError: false });
   }
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -60,14 +69,16 @@ export default function ContactForm() {
       <ContactInput
         text='name'
         type='text'
-        error={nameError}
+        error={name.isError}
         handleInputValue={handleGetName}
+        handleFocus={handleNameFocus}
       />
       <ContactInput
         text='email'
         type='email'
-        error={emailError}
+        error={email.isError}
         handleInputValue={handleGetEmail}
+        handleFocus={handleEmailFocus}
       />
       <ContactMessage text='message' handleMessageValue={handleGetMessage} />
       <BaseButton text='send message' submit />
