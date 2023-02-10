@@ -1,6 +1,6 @@
 import CircleImage from './CircleImage';
 import HeroImage from './HeroImage';
-import RingsImage from './RingsImage';
+
 import BaseButton from '../../UI/BaseButton';
 import DeveloperName from './DeveloperName';
 import DeveloperDes from './DeveloperDes';
@@ -13,13 +13,12 @@ export default function HeroSection() {
   };
 
   return (
-    <section className='grid gap-y-10 mb-20'>
-      <div className='relative flex justify-center overflow-x-hidden'>
+    <section className='grid gap-y-10 mb-20 md:grid-cols-2'>
+      <div className='relative flex justify-center md:justify-end md:order-1 overflow-x-hidden'>
         <HeroImage />
-        <RingsImage position='left-[-92%] top-[32%] z-[-10]' />
         <CircleImage />
       </div>
-      <div className='grid gap-y-6 justify-items-center'>
+      <div className='grid gap-y-6 md:gap-y-[34px] justify-items-center md:justify-items-start md:content-end md:mr-[-6rem] pl-6 z-20'>
         <DeveloperName name={developerProfile.name} />
         <DeveloperDes description={developerProfile.description} />
         <BaseButton text='contact me' />
