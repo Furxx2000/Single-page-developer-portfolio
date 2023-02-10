@@ -31,7 +31,7 @@ export default function Brand() {
       <h1 className='text-center tracking-[-0.33px] md:justify-self-start md:text-[32px] md:tracking-[-0.44px]'>
         dannywen
       </h1>
-      <ul className='flex gap-x-8 md:justify-self-end'>
+      <ul className='flex gap-x-6 md:gap-x-8 md:justify-self-end'>
         {links.map(({ site, link, icon }) => (
           <Link key={site} site={site} link={link} icon={icon} />
         ))}
