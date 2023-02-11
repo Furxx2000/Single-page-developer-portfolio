@@ -9,7 +9,7 @@ function App() {
       <Header />
       <Main />
       <Footer />
-      <RingsImage position='left-[-92%] md:left-[-32%] top-[10%] z-[-10]' />
+      <RingsImage position='left-[-86%] md:left-[-35%] top-[15%] md:top-[10%] z-[-10]' />
     </>
   );
 }
