@@ -1,15 +1,13 @@
 import ContactHeader from './ContactHeader';
 import ContactForm from './ContactForm';
-import RingImage from '../HeroSection/RingsImage';
-import Divider from '../../UI/Divider';
+import RingsImage from '../../Content/HeroSection/RingsImage';
 
 export default function ContactSection() {
   return (
-    <section className='relative grid gap-y-[50px] px-4 pt-[60px] bg-light-black'>
+    <section className='relative grid gap-y-[50px] px-4 md:px-[165px] pt-[60px] bg-light-black'>
       <ContactHeader />
       <ContactForm />
-      <RingImage position='left-[-92%] top-[65.5%]' />
-      <Divider />
+      <RingsImage position='left-[-92%] md:left-[-47.5%] bottom-[15.3%] md:bottom-[5%]' />
     </section>
   );
 }
