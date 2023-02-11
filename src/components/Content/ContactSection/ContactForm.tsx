@@ -63,25 +63,27 @@ export default function ContactForm() {
 
   return (
     <form
-      className='grid gap-y-8 justify-items-end mb-[27px]'
+      className='grid justify-items-end mb-[87px] md:mb-[92px]'
       onSubmit={(e) => handleSubmit(e)}
     >
-      <ContactInput
-        text='name'
-        type='text'
-        error={name.isError}
-        handleInputValue={handleGetName}
-        handleFocus={handleNameFocus}
-      />
-      <ContactInput
-        text='email'
-        type='email'
-        error={email.isError}
-        handleInputValue={handleGetEmail}
-        handleFocus={handleEmailFocus}
-      />
-      <ContactMessage text='message' handleMessageValue={handleGetMessage} />
-      <BaseButton text='send message' submit />
+      <div className='grid gap-y-3 justify-self-stretch mb-8'>
+        <ContactInput
+          text='name'
+          type='text'
+          error={name.isError}
+          handleInputValue={handleGetName}
+          handleFocus={handleNameFocus}
+        />
+        <ContactInput
+          text='email'
+          type='email'
+          error={email.isError}
+          handleInputValue={handleGetEmail}
+          handleFocus={handleEmailFocus}
+        />
+        <ContactMessage text='message' handleMessageValue={handleGetMessage} />
+      </div>
+      <BaseButton submit text='send message' />
     </form>
   );
 }
