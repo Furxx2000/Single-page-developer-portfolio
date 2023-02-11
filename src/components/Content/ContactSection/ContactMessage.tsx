@@ -12,9 +12,9 @@ export default function ContactMessage({ text, handleMessageValue }: Props) {
       <textarea
         id={text}
         name={text}
-        rows={3}
+        rows={4}
         placeholder={text}
-        className='font-medium px-6 pb-4 border-b border-white leading-[26px] tracking-[-0.22px] focus:border-primary-green transition placeholder:text-gray placeholder:opacity-50 placeholder:uppercase'
+        className='font-medium px-6 pb-1 border-b border-white leading-[26px] tracking-[-0.22px] focus:border-primary-green transition placeholder:text-gray placeholder:opacity-50 placeholder:uppercase'
         onChange={(e) => handleMessageValue(e.target.value)}
       ></textarea>
     </div>
