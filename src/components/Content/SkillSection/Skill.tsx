@@ -5,11 +5,11 @@ interface Props {
 
 export default function Skill({ skill, experience }: Props) {
   return (
-    <li className='text-center'>
-      <h3 className='font-bold text-[32px] leading-10 tracking-[-1px]'>
+    <li className='text-center md:text-left md:justify-self-start'>
+      <h3 className='font-bold text-[32px] md:text-5xl leading-10 md:leading-[56px] tracking-[-1px] md:tracking-[-1.5px]'>
         {skill}
       </h3>
-      <p className='font-medium leading-[26px] text-gray'>
+      <p className='font-medium leading-[26px] md:leading-7 text-gray md:text-lg'>
         {experience} year{experience > 1 && 's'} experience
       </p>
     </li>

@@ -30,9 +30,9 @@ export default function SkillSection() {
   ];
 
   return (
-    <section className='grid px-4'>
+    <section className='grid px-4 md:px-8'>
       <Divider />
-      <ul className='grid gap-y-6 py-10'>
+      <ul className='grid gap-y-6 md:gap-y-14 py-10 md:py-[52px] md:grid-cols-2'>
         {developerSkills.map(({ skill, experience }) => (
           <Skill key={skill} skill={skill} experience={experience} />
         ))}

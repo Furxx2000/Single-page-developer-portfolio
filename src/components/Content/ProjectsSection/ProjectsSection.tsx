@@ -42,10 +42,10 @@ export default function ProjectsSection() {
   }, []);
 
   return (
-    <section className='relative grid gap-y-10 px-4 pb-20'>
-      <Divider />
+    <section className='relative grid gap-y-10 px-4 md:px-8 pb-20 md:pb-[100px]'>
+      <Divider classes='md:hidden' />
       <ProjectsHeader />
-      <div className='grid gap-y-10'>
+      <div className='grid md:grid-cols-2 gap-y-10 md:gap-x-[22px]'>
         {projects.map(
           ({ projectName, image, skills, projectLink, codeLink }) => (
             <Project
@@ -59,7 +59,7 @@ export default function ProjectsSection() {
           )
         )}
       </div>
-      <RingImage position='top-[-63px] right-[-92%]' />
+      <RingImage position='top-[-63px] md:top-[-118px] right-[-92%] md:right-[-44%]' />
     </section>
   );
 }
