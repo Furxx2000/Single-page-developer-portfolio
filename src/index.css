@@ -19,6 +19,8 @@
     @apply text-[40px];
     @apply leading-10;
     @apply tracking-[-1.14px];
+    @apply md:text-7xl;
+    @apply md:tracking-[-2.05px];
   }
 
   input,
