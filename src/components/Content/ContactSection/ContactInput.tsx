@@ -33,14 +33,10 @@ export default function ContactInput({
         } transition placeholder:text-gray placeholder:opacity-50 placeholder:uppercase`}
         autoComplete='off'
       />
-      {error && (
-        <>
-          <img className='absolute right-0' src={ErrorIcon} alt='' />
-          <p className='text-error-red text-right text-xs tracking-[-0.17px]'>
-            Sorry, invalid format here
-          </p>
-        </>
-      )}
+      <p className='h-4 text-error-red text-right text-xs tracking-[-0.17px]'>
+        {error && 'Sorry, invalid format here'}
+      </p>
+      {error && <img className='absolute right-0' src={ErrorIcon} alt='' />}
     </div>
   );
 }
