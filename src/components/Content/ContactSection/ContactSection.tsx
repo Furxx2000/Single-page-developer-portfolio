@@ -4,10 +4,10 @@ import RingsImage from '../../Content/HeroSection/RingsImage';
 
 export default function ContactSection() {
   return (
-    <section className='relative grid gap-y-[50px] px-4 md:px-[165px] pt-[60px] bg-light-black'>
+    <section className='relative grid gap-y-[50px] px-4 pt-[60px] bg-light-black md:px-[165px] xl:pt-[84px] xl:grid-cols-2'>
       <ContactHeader />
       <ContactForm />
-      <RingsImage position='left-[-92%] md:left-[-47.5%] bottom-[15.3%] md:bottom-[5%]' />
+      <RingsImage position='left-[-92%] bottom-[15.3%] md:left-[-47.5%] md:bottom-[5%] xl:left-[-14%] xl:bottom-[11%]' />
     </section>
   );
 }
