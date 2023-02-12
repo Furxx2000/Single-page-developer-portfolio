@@ -1,8 +1,12 @@
 import Image from '../../../assets/pattern-circle.svg';
 
-export default function CircleImage() {
+interface Props {
+  position: string;
+}
+
+export default function CircleImage({ position }: Props) {
   return (
-    <div className='absolute right-0 bottom-0 translate-x-16'>
+    <div className={`absolute ${position}`}>
       <img src={Image} alt='Circle' />
     </div>
   );
