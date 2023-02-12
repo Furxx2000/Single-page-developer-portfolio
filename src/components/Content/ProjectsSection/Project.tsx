@@ -1,4 +1,9 @@
 import BaseButton from '../../UI/BaseButton';
+import ProjectSkill from './ProjectSkill';
+import ProjectName from './ProjectName';
+import ProjectCard from './ProjectCard';
+import ProjectImage from './ProjectImage';
+import ProjectBtns from './ProjectBtns';
 
 interface Props {
   projectName: string;
@@ -16,26 +21,23 @@ export default function Project({
   codeLink,
 }: Props) {
   return (
-    <div className='grid gap-y-5'>
-      <div className='w-[343px] h-[253px] rounded-xl overflow-clip'>
-        <img src={image} alt={projectName} loading='lazy' />
-      </div>
+    <ProjectCard>
+      <ProjectImage
+        src={image}
+        prjName={projectName}
+        prjLink={projectLink}
+        codeLink={codeLink}
+      />
       <div>
-        <h4 className='font-bold text-2xl leading-8 mb-1 uppercase'>
-          {projectName}
-        </h4>
-        <div>
-          {skills.map((skill) => (
-            <span key={skill} className='uppercase text-gray mr-[18px]'>
-              {skill}
-            </span>
-          ))}
-        </div>
+        <ProjectName prjName={projectName} />
+        {skills.map((skill) => (
+          <ProjectSkill key={skill} skill={skill} />
+        ))}
       </div>
-      <div className='flex items-center gap-x-8'>
+      <ProjectBtns>
         <BaseButton text='view project' link={projectLink} />
         <BaseButton text='view code' link={codeLink} />
-      </div>
-    </div>
+      </ProjectBtns>
+    </ProjectCard>
   );
 }
