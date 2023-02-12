@@ -11,7 +11,11 @@ export default function ContactMeBtn({ text, link, submit = false }: Props) {
   return (
     <>
       {link ? (
-        <a className={btnStyle} href={link} target='_blank'>
+        <a
+          className={btnStyle}
+          href={link}
+          target={link.includes('https') ? '_blank' : ''}
+        >
           {text}
         </a>
       ) : (
