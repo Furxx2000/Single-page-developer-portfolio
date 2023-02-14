@@ -1,4 +1,4 @@
-import Image from '../../../assets/pattern-circle.svg';
+import Image from '../../../assets/pattern-circle.svg?url';
 
 interface Props {
   position: string;
