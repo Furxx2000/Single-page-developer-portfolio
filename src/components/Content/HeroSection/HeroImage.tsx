@@ -1,6 +1,6 @@
-import mobileImage from '../../../assets/image-profile-mobile.webp';
-import tabletImage from '../../../assets/image-profile-tablet.webp';
-import desktopImage from '../../../assets/image-profile-desktop.webp';
+import mobileImage from '../../../assets/image-profile-mobile.webp?url';
+import tabletImage from '../../../assets/image-profile-tablet.webp?url';
+import desktopImage from '../../../assets/image-profile-desktop.webp?url';
 
 export default function HeroImage() {
   return (
