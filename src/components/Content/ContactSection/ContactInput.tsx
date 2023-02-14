@@ -1,4 +1,4 @@
-import ErrorIcon from '../../../assets/Error-icon.svg';
+import ErrorIcon from '../../../assets/Error-icon.svg?url';
 
 interface Props {
   text: string;
