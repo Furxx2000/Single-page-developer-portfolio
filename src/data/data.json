@@ -5,56 +5,56 @@
     {
       "projectName": "Pomodoro app",
       "skills": ["tailwind", "typescript", "react"],
-      "image": "../../src/assets/Pomodoro-app.jpg",
+      "image": "../../src/assets/Pomodoro-app.jpg?url",
       "projectLink": "https://furxx2000.github.io/Pomodoro-app/",
       "codeLink": "https://github.com/Furxx2000/Pomodoro-app"
     },
     {
       "projectName": "In browser markdown editor",
       "skills": ["scss", "typescript", "react"],
-      "image": "../../src/assets/In-browser-markdown-editor.jpg",
+      "image": "../../src/assets/In-browser-markdown-editor.jpg?url",
       "projectLink": "https://furxx2000.github.io/In-browser-markdown-editor/",
       "codeLink": "https://github.com/Furxx2000/In-browser-markdown-editor"
     },
     {
       "projectName": "REST Countries API",
       "skills": ["css", "typescript", "vue"],
-      "image": "../../src/assets/REST-Countries-API.jpg",
+      "image": "../../src/assets/REST-Countries-API.jpg?url",
       "projectLink": "https://furxx2000.github.io/Rest-Country-API-App/",
       "codeLink": "https://github.com/Furxx2000/Rest-Country-API-App"
     },
     {
       "projectName": "Calculator App",
       "skills": ["scss", "typescript", "vue"],
-      "image": "../../src/assets/Calculator-App.jpg",
+      "image": "../../src/assets/Calculator-App.jpg?url",
       "projectLink": "https://furxx2000.github.io/Calculator-App/",
       "codeLink": "https://github.com/Furxx2000/Calculator-App"
     },
     {
       "projectName": "Drum machine",
       "skills": ["styled components", "typescript", "react"],
-      "image": "../../src/assets/Drum-machine.JPG",
+      "image": "../../src/assets/Drum-machine.JPG?url",
       "projectLink": "https://furxx2000.github.io/Drum-machine/",
       "codeLink": "https://github.com/Furxx2000/Drum-machine"
     },
     {
       "projectName": "Space tourism website",
       "skills": ["html", "css", "typescript"],
-      "image": "../../src/assets/Space-tourism-website.jpg",
+      "image": "../../src/assets/Space-tourism-website.jpg?url",
       "projectLink": "https://furxx2000.github.io/Space-Tourism-Website/",
       "codeLink": "https://github.com/Furxx2000/Space-Tourism-Website"
     },
     {
       "projectName": "Random quote app",
       "skills": ["css", "react", "API"],
-      "image": "../../src/assets/Random-quote-app.JPG",
+      "image": "../../src/assets/Random-quote-app.JPG?url",
       "projectLink": "https://furxx2000.github.io/Random-quote-machine-FCC/",
       "codeLink": "https://github.com/Furxx2000/Random-quote-machine-FCC"
     },
     {
       "projectName": "Login page",
       "skills": ["scss", "vue", "vue router"],
-      "image": "../../src/assets/Login-page.jpg",
+      "image": "../../src/assets/Login-page.jpg?url",
       "projectLink": "https://trend-micro-developer-task.netlify.app",
       "codeLink": "https://github.com/Furxx2000/trend_micro_developer_task"
     }
