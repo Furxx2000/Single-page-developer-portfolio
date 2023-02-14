@@ -59,5 +59,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Add your name here](https://furxx2000.github.io/Single-page-developer-portfolio/)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/furxx2000)
