@@ -1,30 +1,8 @@
-import { SiFrontendmentor } from 'react-icons/si';
-import { FaLinkedin, FaCodepen, FaGithub } from 'react-icons/fa';
 import Link from '../UI/Link';
+import Author from '../../data/data';
 
 export default function Brand() {
-  const links = [
-    {
-      site: 'Github',
-      link: 'https://github.com/Furxx2000',
-      icon: <FaGithub className='md:w-6 md:h-6' size={20} />,
-    },
-    {
-      site: 'Frontend mentor',
-      link: 'https://www.frontendmentor.io/profile/Furxx2000',
-      icon: <SiFrontendmentor className='md:w-6 md:h-6' size={20} />,
-    },
-    {
-      site: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/%E5%85%89%E5%BB%B7-%E6%96%87-aa0ba1176/',
-      icon: <FaLinkedin className='md:w-6 md:h-6' size={20} />,
-    },
-    {
-      site: 'Codepen',
-      link: 'https://codepen.io/furxx2000',
-      icon: <FaCodepen className='md:w-6 md:h-6' size={20} />,
-    },
-  ];
+  const links = Author.links;
 
   return (
     <div className='grid md:grid-cols-2 gap-y-5 items-center justify-center font-bold text-2xl'>
