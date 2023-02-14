@@ -11,7 +11,7 @@ export default function Brand() {
     },
     {
       site: 'Frontend mentor',
-      link: 'https://www.frontendmentor.io/Furxx2000',
+      link: 'https://www.frontendmentor.io/profile/Furxx2000',
       icon: <SiFrontendmentor className='md:w-6 md:h-6' size={20} />,
     },
     {
