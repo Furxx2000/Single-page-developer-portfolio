@@ -16,8 +16,8 @@ export default function SkillSection() {
       experience: 2,
     },
     {
-      skill: 'Accessibility',
-      experience: 2,
+      skill: 'Vue',
+      experience: 1,
     },
     {
       skill: 'React',
