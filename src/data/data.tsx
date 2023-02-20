@@ -7,6 +7,7 @@ import drumMachineImage from '../assets/Drum-machine.jpg?url';
 import spaceWebsiteImage from '../assets/Space-tourism-website.jpg?url';
 import quoteAppImage from '../assets/Random-quote-app.jpg?url';
 import loginPageImage from '../assets/Login-page.jpg?url';
+import airbnbCloneImage from '../assets/airbnb-clone.jpg';
 import { SiFrontendmentor } from 'react-icons/si';
 import { FaLinkedin, FaCodepen, FaGithub } from 'react-icons/fa';
 
@@ -102,8 +103,15 @@ export default {
       projectName: 'Login page',
       skills: ['scss', 'vue', 'vue router'],
       image: loginPageImage,
-      projectLink: 'https://trend-micro-developer-task.netlify.app',
-      codeLink: 'https://github.com/Furxx2000/trend_micro_developer_task',
+      projectLink: 'https://furxx2000.github.io/Login-page/',
+      codeLink: 'https://github.com/Furxx2000/Login-page',
+    },
+    {
+      projectName: 'Airbnb clone',
+      skills: ['html', 'scss', 'javascript'],
+      image: airbnbCloneImage,
+      projectLink: 'https://furxx2000.github.io/Airbnb-clone/',
+      codeLink: 'https://github.com/Furxx2000/Airbnb-clone',
     },
   ],
   links: [
