@@ -6,7 +6,7 @@ export default function ContactSection() {
   return (
     <section
       id='contact-section'
-      className='relative grid gap-y-[50px] px-4 pt-[60px] bg-light-black md:px-[165px] xl:pt-[84px] xl:grid-cols-2'
+      className='relative grid gap-y-[50px] px-4 pt-[60px] bg-light-black md:px-[165px] xl:pt-[84px] xl:grid-cols-[1fr_445px]'
     >
       <ContactHeader />
       <ContactForm />
