@@ -9,7 +9,7 @@ export default function HeroSection() {
   const { name, description } = Author;
 
   return (
-    <section className='grid gap-y-10 mb-20 md:mb-[60px] md:grid-cols-2 xl:px-[165px]'>
+    <section className='grid gap-y-10 mb-20 md:mb-[60px] md:grid-cols-2 xl:px-[165px] xl:mb-[104px]'>
       <div className='relative flex justify-center md:justify-end md:order-1 overflow-x-hidden'>
         <HeroImage />
         <CircleImage position='right-0 bottom-0 translate-x-16 xl:translate-x-[8%] xl:right-[390px] xl:bottom-[80px]' />
