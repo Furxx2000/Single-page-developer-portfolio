@@ -55,7 +55,7 @@ export default function ContactForm() {
     const isValid = validation();
 
     if (isValid) {
-      console.log('Submit success!');
+      alert(`Submit successful! Thank you.`);
     } else {
       console.log('Submit fail!');
     }
