@@ -25,20 +25,26 @@ export default {
       experience: 2,
     },
     {
+      skill: 'Sass',
+    },
+    {
+      skill: 'Styled-components',
+    },
+    {
+      skill: 'Tailwind CSS',
+    },
+    {
       skill: 'Javascript',
       experience: 2,
     },
     {
+      skill: 'TypeScript',
+    },
+    {
       skill: 'Vue',
-      experience: 1,
     },
     {
       skill: 'React',
-      experience: 1,
-    },
-    {
-      skill: 'Sass',
-      experience: 1,
     },
   ],
   projects: [

@@ -10,7 +10,9 @@ export default function Skill({ skill, experience }: Props) {
         {skill}
       </h3>
       <p className='font-medium leading-[26px] md:leading-7 text-gray md:text-lg'>
-        {experience} Year{experience > 1 && 's'} Experience
+        {experience
+          ? `${experience} Year${experience > 1 && 's'} Experience`
+          : ''}
       </p>
     </li>
   );
