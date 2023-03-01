@@ -1,6 +1,6 @@
 interface Props {
   skill: string;
-  experience: number;
+  experience?: number;
 }
 
 export default function Skill({ skill, experience }: Props) {
