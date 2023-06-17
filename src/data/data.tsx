@@ -8,6 +8,7 @@ import spaceWebsiteImage from '../assets/Space-tourism-website.jpg?url';
 import quoteAppImage from '../assets/Random-quote-app.jpg?url';
 import loginPageImage from '../assets/Login-page.jpg?url';
 import airbnbCloneImage from '../assets/airbnb-clone.jpg';
+import airbnbClone2023 from '../assets/airbnb-clone-2023.jpg';
 import { SiFrontendmentor } from 'react-icons/si';
 import { FaLinkedin, FaCodepen, FaGithub } from 'react-icons/fa';
 
@@ -48,6 +49,20 @@ export default {
     },
   ],
   projects: [
+    {
+      projectName: 'Airbnb-clone-2023',
+      skills: [
+        'tailwind',
+        'typescript',
+        'react',
+        'next.js',
+        'prisma',
+        'mongodb',
+      ],
+      image: airbnbClone2023,
+      projectLink: 'travel-app-2023.vercel.app/',
+      codeLink: 'https://github.com/Furxx2000/Airbnb-clone-2023',
+    },
     {
       projectName: 'Single page developer portfolio',
       skills: ['tailwind', 'typescript', 'react'],
