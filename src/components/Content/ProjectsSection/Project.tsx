@@ -30,9 +30,11 @@ export default function Project({
       />
       <div>
         <ProjectName prjName={projectName} />
-        {skills.map((skill) => (
-          <ProjectSkill key={skill} skill={skill} />
-        ))}
+        <div className='flex flex-wrap'>
+          {skills.map((skill) => (
+            <ProjectSkill key={skill} skill={skill} />
+          ))}
+        </div>
       </div>
       <ProjectBtns>
         <BaseButton text='view project' link={projectLink} />
