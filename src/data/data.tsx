@@ -60,7 +60,7 @@ export default {
         'mongodb',
       ],
       image: airbnbClone2023,
-      projectLink: 'travel-app-2023.vercel.app/',
+      projectLink: 'https://travel-app-2023.vercel.app/',
       codeLink: 'https://github.com/Furxx2000/Airbnb-clone-2023',
     },
     {
