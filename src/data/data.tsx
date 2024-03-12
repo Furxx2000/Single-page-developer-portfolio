@@ -19,33 +19,33 @@ export default {
   skills: [
     {
       skill: 'HTML',
-      experience: 2,
     },
     {
       skill: 'CSS',
-      experience: 2,
     },
     {
-      skill: 'Sass',
-    },
-    {
-      skill: 'Styled-components',
-    },
-    {
-      skill: 'Tailwind CSS',
-    },
-    {
-      skill: 'Javascript',
-      experience: 2,
+      skill: 'JavaScript',
     },
     {
       skill: 'TypeScript',
     },
     {
-      skill: 'Vue',
+      skill: 'Vue.js',
     },
     {
-      skill: 'React',
+      skill: 'React.js',
+    },
+    {
+      skill: 'Node.js',
+    },
+    {
+      skill: 'Express.js',
+    },
+    {
+      skill: 'Salesforce Lightning Web Component',
+    },
+    {
+      skill: 'Microsoft Dynamic 365',
     },
   ],
   projects: [
