@@ -1,16 +1,15 @@
-import portfolioImage from '../assets/portfolio-website.jpg?url';
-import pomodoroImage from '../assets/Pomodoro-app.jpg?url';
-import markdownImage from '../assets/In-browser-markdown-editor.jpg?url';
-import restCountriesAPIImage from '../assets/REST-Countries-API.jpg?url';
+import { FaCodepen, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { SiFrontendmentor } from 'react-icons/si';
 import calculatorImage from '../assets/Calculator-App.jpg?url';
 import drumMachineImage from '../assets/Drum-machine.jpg?url';
-import spaceWebsiteImage from '../assets/Space-tourism-website.jpg?url';
-import quoteAppImage from '../assets/Random-quote-app.jpg?url';
+import markdownImage from '../assets/In-browser-markdown-editor.jpg?url';
 import loginPageImage from '../assets/Login-page.jpg?url';
+import pomodoroImage from '../assets/Pomodoro-app.jpg?url';
+import restCountriesAPIImage from '../assets/REST-Countries-API.jpg?url';
+import quoteAppImage from '../assets/Random-quote-app.jpg?url';
+import spaceWebsiteImage from '../assets/Space-tourism-website.jpg?url';
 import airbnbCloneImage from '../assets/airbnb-clone.jpg';
-import airbnbClone2023 from '../assets/airbnb-clone-2023.jpg';
-import { SiFrontendmentor } from 'react-icons/si';
-import { FaLinkedin, FaCodepen, FaGithub } from 'react-icons/fa';
+import portfolioImage from '../assets/portfolio-website.jpg?url';
 
 export default {
   name: 'Danny Wen',
@@ -36,10 +35,10 @@ export default {
       skill: 'React.js',
     },
     {
-      skill: 'Node.js',
+      skill: 'Next.js'
     },
     {
-      skill: 'Express.js',
+      skill: 'Node.js',
     },
     {
       skill: 'Salesforce Lightning Web Component',
@@ -50,22 +49,57 @@ export default {
   ],
   projects: [
     {
+      projectName: 'Tea-REX',
+      skills: [
+        'Next.js',
+        'TypeScript',
+        'Stylus',
+        'Vitest',
+        'Git',
+        'Web3'
+      ],
+      image: '../../public/images/Tea-REX.webp',
+      projectLink: 'https://app.trex.trade/',
+      codeLink: '',
+    },
+    {
+      projectName: 'Trend Micro Help Center',
+      skills: [
+        'JavaScript',
+        'Microsoft Dynamic 365',
+      ],
+      image: '../../public/images/Trend Micro Help Center.webp',
+      projectLink: 'https://helpcenter.trendmicro.com/en-us/',
+      codeLink: '',
+    },
+    {
+      projectName: 'Trend Micro Business Success Portal',
+      skills: [
+        'JavaScript',
+        'Salesforce Lightning Web Component',
+        'Microsoft Dynamic 365',
+      ],
+      image: '../../public/images/Trend Micro Business Success Portal.webp',
+      projectLink: 'https://success.trendmicro.com/en-US/',
+      codeLink: '',
+    },
+    {
       projectName: 'Airbnb-clone-2023',
       skills: [
-        'tailwind',
-        'typescript',
-        'react',
-        'next.js',
-        'prisma',
-        'mongodb',
+        'Tailwind',
+        'TypeScript',
+        'React',
+        'Next.js',
+        'Prisma',
+        'Mongodb',
       ],
-      image: airbnbClone2023,
+      image: '../../public/images/Airbnb-2023.webp',
       projectLink: 'https://travel-app-2023.vercel.app/',
       codeLink: 'https://github.com/Furxx2000/Airbnb-clone-2023',
     },
     {
       projectName: 'Single page developer portfolio',
-      skills: ['tailwind', 'typescript', 'react'],
+      skills: ['Tailwind', 'TypeScript', 'React'],
       image: portfolioImage,
       projectLink:
         'https://furxx2000.github.io/Single-page-developer-portfolio/',
@@ -73,63 +107,63 @@ export default {
     },
     {
       projectName: 'Pomodoro app',
-      skills: ['tailwind', 'typescript', 'react'],
+      skills: ['Tailwind', 'TypeScript', 'React'],
       image: pomodoroImage,
       projectLink: 'https://furxx2000.github.io/Pomodoro-app/',
       codeLink: 'https://github.com/Furxx2000/Pomodoro-app',
     },
     {
       projectName: 'In browser markdown editor',
-      skills: ['scss', 'typescript', 'react'],
+      skills: ['SCSS', 'TypeScript', 'React'],
       image: markdownImage,
       projectLink: 'https://furxx2000.github.io/In-browser-markdown-editor/',
       codeLink: 'https://github.com/Furxx2000/In-browser-markdown-editor',
     },
     {
       projectName: 'REST Countries API',
-      skills: ['css', 'typescript', 'vue'],
+      skills: ['CSS', 'TypeScript', 'Vue'],
       image: restCountriesAPIImage,
       projectLink: 'https://furxx2000.github.io/Rest-Country-API-App/',
       codeLink: 'https://github.com/Furxx2000/Rest-Country-API-App',
     },
     {
       projectName: 'Calculator App',
-      skills: ['scss', 'typescript', 'vue'],
+      skills: ['SCSS', 'TypeScript', 'Vue'],
       image: calculatorImage,
       projectLink: 'https://furxx2000.github.io/Calculator-App/',
       codeLink: 'https://github.com/Furxx2000/Calculator-App',
     },
     {
       projectName: 'Drum machine',
-      skills: ['styled components', 'typescript', 'react'],
+      skills: ['Styled Components', 'TypeScript', 'React'],
       image: drumMachineImage,
       projectLink: 'https://furxx2000.github.io/Drum-machine/',
       codeLink: 'https://github.com/Furxx2000/Drum-machine',
     },
     {
       projectName: 'Space tourism website',
-      skills: ['html', 'css', 'typescript'],
+      skills: ['HTML', 'CSS', 'TypeScript'],
       image: spaceWebsiteImage,
       projectLink: 'https://furxx2000.github.io/Space-Tourism-Website/',
       codeLink: 'https://github.com/Furxx2000/Space-Tourism-Website',
     },
     {
       projectName: 'Random quote app',
-      skills: ['css', 'react', 'API'],
+      skills: ['CSS', 'React', 'API'],
       image: quoteAppImage,
       projectLink: 'https://furxx2000.github.io/Random-quote-machine-FCC/',
       codeLink: 'https://github.com/Furxx2000/Random-quote-machine-FCC',
     },
     {
       projectName: 'Login page',
-      skills: ['scss', 'vue', 'vue router'],
+      skills: ['SCSS', 'Vue', 'Vue Router'],
       image: loginPageImage,
       projectLink: 'https://furxx2000.github.io/Login-page/',
       codeLink: 'https://github.com/Furxx2000/Login-page',
     },
     {
       projectName: 'Airbnb clone',
-      skills: ['html', 'scss', 'javascript'],
+      skills: ['HTML', 'SCSS', 'JavaScript'],
       image: airbnbCloneImage,
       projectLink: 'https://furxx2000.github.io/Airbnb-clone/',
       codeLink: 'https://github.com/Furxx2000/Airbnb-clone',

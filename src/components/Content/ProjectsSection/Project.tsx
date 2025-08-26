@@ -1,9 +1,9 @@
 import BaseButton from '../../UI/BaseButton';
-import ProjectSkill from './ProjectSkill';
-import ProjectName from './ProjectName';
+import ProjectBtns from './ProjectBtns';
 import ProjectCard from './ProjectCard';
 import ProjectImage from './ProjectImage';
-import ProjectBtns from './ProjectBtns';
+import ProjectName from './ProjectName';
+import ProjectSkill from './ProjectSkill';
 
 interface Props {
   projectName: string;
@@ -37,8 +37,8 @@ export default function Project({
         </div>
       </div>
       <ProjectBtns>
-        <BaseButton text='view project' link={projectLink} />
-        <BaseButton text='view code' link={codeLink} />
+        {projectLink && <BaseButton text='view project' link={projectLink} />}
+        {codeLink && <BaseButton text='view code' link={codeLink} />}
       </ProjectBtns>
     </ProjectCard>
   );
