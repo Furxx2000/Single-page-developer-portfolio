@@ -1,5 +1,9 @@
 import { FaCodepen, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiFrontendmentor } from 'react-icons/si';
+import airbnb2023Image from '../../public/images/Airbnb-2023.webp';
+import TREXImage from '../../public/images/Tea-REX.webp';
+import BSPImage from '../../public/images/Trend Micro Business Success Portal.webp';
+import HCImage from '../../public/images/Trend Micro Help Center.webp';
 import calculatorImage from '../assets/Calculator-App.jpg?url';
 import drumMachineImage from '../assets/Drum-machine.jpg?url';
 import markdownImage from '../assets/In-browser-markdown-editor.jpg?url';
@@ -41,7 +45,7 @@ export default {
       skill: 'Node.js',
     },
     {
-      skill: 'Salesforce Lightning Web Component',
+      skill: 'Salesforce Lightning',
     },
     {
       skill: 'Microsoft Dynamic 365',
@@ -58,7 +62,7 @@ export default {
         'Git',
         'Web3'
       ],
-      image: '../../public/images/Tea-REX.webp',
+      image: TREXImage,
       projectLink: 'https://app.trex.trade/',
       codeLink: '',
     },
@@ -68,7 +72,7 @@ export default {
         'JavaScript',
         'Microsoft Dynamic 365',
       ],
-      image: '../../public/images/Trend Micro Help Center.webp',
+      image: HCImage,
       projectLink: 'https://helpcenter.trendmicro.com/en-us/',
       codeLink: '',
     },
@@ -76,10 +80,10 @@ export default {
       projectName: 'Trend Micro Business Success Portal',
       skills: [
         'JavaScript',
-        'Salesforce Lightning Web Component',
+        'Salesforce Lightning',
         'Microsoft Dynamic 365',
       ],
-      image: '../../public/images/Trend Micro Business Success Portal.webp',
+      image: BSPImage,
       projectLink: 'https://success.trendmicro.com/en-US/',
       codeLink: '',
     },
@@ -93,7 +97,7 @@ export default {
         'Prisma',
         'Mongodb',
       ],
-      image: '../../public/images/Airbnb-2023.webp',
+      image: airbnb2023Image,
       projectLink: 'https://travel-app-2023.vercel.app/',
       codeLink: 'https://github.com/Furxx2000/Airbnb-clone-2023',
     },
