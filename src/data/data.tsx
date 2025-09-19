@@ -14,6 +14,8 @@ import quoteAppImage from '../assets/Random-quote-app.jpg?url';
 import spaceWebsiteImage from '../assets/Space-tourism-website.jpg?url';
 import airbnbCloneImage from '../assets/airbnb-clone.jpg';
 import portfolioImage from '../assets/portfolio-website.jpg?url';
+import videoHighlightToolImage from '../assets/video-highlight-tool.png';
+import orderbookImage from '../assets/Orderbook.png';
 
 export default {
   name: 'Danny Wen',
@@ -39,7 +41,7 @@ export default {
       skill: 'React.js',
     },
     {
-      skill: 'Next.js'
+      skill: 'Next.js',
     },
     {
       skill: 'Node.js',
@@ -54,38 +56,38 @@ export default {
   projects: [
     {
       projectName: 'Tea-REX',
-      skills: [
-        'Next.js',
-        'TypeScript',
-        'Stylus',
-        'Vitest',
-        'Git',
-        'Web3'
-      ],
+      skills: ['Next.js', 'TypeScript', 'Stylus', 'Vitest', 'Git', 'Web3'],
       image: TREXImage,
       projectLink: 'https://app.trex.trade/',
       codeLink: '',
     },
     {
       projectName: 'Trend Micro Help Center',
-      skills: [
-        'JavaScript',
-        'Microsoft Dynamic 365',
-      ],
+      skills: ['JavaScript', 'Microsoft Dynamic 365'],
       image: HCImage,
       projectLink: 'https://helpcenter.trendmicro.com/en-us/',
       codeLink: '',
     },
     {
       projectName: 'Trend Micro Business Success Portal',
-      skills: [
-        'JavaScript',
-        'Salesforce Lightning',
-        'Microsoft Dynamic 365',
-      ],
+      skills: ['JavaScript', 'Salesforce Lightning', 'Microsoft Dynamic 365'],
       image: BSPImage,
       projectLink: 'https://success.trendmicro.com/en-US/',
       codeLink: '',
+    },
+    {
+      projectName: 'Video Highligh Tool',
+      skills: ['Next.js', 'TypeScript', 'Tailwind'],
+      image: videoHighlightToolImage,
+      projectLink: 'https://video-highlight-tool-psi.vercel.app/',
+      codeLink: 'https://github.com/Furxx2000/Video-Highlight-Tool',
+    },
+    {
+      projectName: 'Web3 Orderbook',
+      skills: ['Next.js', 'TypeScript', 'Tailwind', 'WebSocket'],
+      image: orderbookImage,
+      projectLink: 'https://order-book-eta-green.vercel.app/',
+      codeLink: 'https://github.com/Furxx2000/OrderBook',
     },
     {
       projectName: 'Airbnb-clone-2023',
