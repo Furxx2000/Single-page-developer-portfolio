@@ -57,7 +57,7 @@ export default {
     {
       projectName: 'Teahouse Finance - Tea-REX',
       skills: ['Next.js', 'TypeScript', 'Stylus', 'Vitest', 'Git', 'Web3'],
-      image: '/images/Tea-REX.webp',
+      image: TREXImage,
       projectLink: 'https://app.trex.trade/',
       codeLink: '',
     },
